@@ -19,9 +19,7 @@ CREATE TABLE `user` (
 select * from user;
 
 INSERT INTO `user` (`user_id`, `active`, `email`, `last_name`, `name`, `password`)
-VALUES
-	(1,1,'admin@gmail.com','s','Dowlath','dowlath'),
-	(2,1,'admin@gmail.com','s','youtube','youtube');
+VALUES	(1,1,'admin@gmail.com','s','Dowlath','dowlath'), (2,1,'admin@gmail.com','s','youtube','youtube');
     
 CREATE TABLE `role` (
   `role_id` int(11) NOT NULL AUTO_INCREMENT,
@@ -30,8 +28,7 @@ CREATE TABLE `role` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `role` (`role_id`, `role`)
-VALUES
-	(1,'ADMIN');
+VALUES (1,'ADMIN');
     
 CREATE TABLE `user_role` (
   `user_id` int(11) NOT NULL,
@@ -42,7 +39,6 @@ CREATE TABLE `user_role` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `user_role` (`user_id`, `role_id`)
-VALUES
-	(1,1);
+VALUES (1,1);
   
   
