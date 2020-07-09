@@ -71,10 +71,11 @@ http://localhot:9111/rest/hello
 
 http://localhost:9111/rest/hello/secured/all
 
-![my_2](https://user-images.githubusercontent.com/9671419/87023720-c4bb9f00-c1f5-11ea-9904-46868eb57d2b.PNG)
-
 User Name : Dowlath
+
 Password : dowlath
+
+![my_2](https://user-images.githubusercontent.com/9671419/87023720-c4bb9f00-c1f5-11ea-9904-46868eb57d2b.PNG)
 
 ![My_3](https://user-images.githubusercontent.com/9671419/87023722-c5543580-c1f5-11ea-8a8f-8cfa032ccf1e.PNG)
 
