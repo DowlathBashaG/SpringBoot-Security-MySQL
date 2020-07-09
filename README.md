@@ -62,3 +62,19 @@ spring.jpa.hibernate.naming-strategy=org.hibernate.cfg.ImprovedNamingStrategy
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
 
 server.port = 9111
+
+## URL's :
+
+http://localhot:9111/rest/hello
+
+![my_1](https://user-images.githubusercontent.com/9671419/87023717-c38a7200-c1f5-11ea-8145-dc6a016c7895.PNG)
+
+http://localhost:9111/rest/hello/secured/all
+
+![my_2](https://user-images.githubusercontent.com/9671419/87023720-c4bb9f00-c1f5-11ea-9904-46868eb57d2b.PNG)
+
+User Name : Dowlath
+Password : dowlath
+
+![My_3](https://user-images.githubusercontent.com/9671419/87023722-c5543580-c1f5-11ea-8a8f-8cfa032ccf1e.PNG)
+
